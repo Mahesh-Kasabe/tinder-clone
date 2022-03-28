@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.header .logo img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.header .logo{
+    padding: 2vw;
+}
+
+.header .profile{
+    padding: 2vw;
+    color: #ec5e6f;
+}
+
+.header .logout{
+    padding: 2vw;
+    color: #915dd1;
+}
