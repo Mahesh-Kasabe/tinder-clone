@@ -25,19 +25,19 @@
     border-radius: 10px;
 }
 
-.card h3,h4,p{
+.card #name,#age,#desc{
     position: absolute;
     color: white;
     margin-top: 350px;
     margin-left: 20px;
 }
 
-.card h4{
+.card #desc{
     padding-top: 30px;
     font-weight: 400;
 }
 
-.card p{
+.card #age{
     padding-top: 10px;
     font-weight: 500;
 }

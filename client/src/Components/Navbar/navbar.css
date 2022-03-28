@@ -1,0 +1,113 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  rgba(0,0,0,0);
+    width: 100%;
+    filter: alpha(opacity=30);
+}   
+
+.nav img{
+    width: 130px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.nav p{
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nav p{
+    cursor: pointer;
+}
+
+.image {
+    position: relative;
+}
+.navbar .image img{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    color: black;
+    filter: brightness(0.5);
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    justify-content: end;
+}
+
+.buttons p{
+    padding-right: 40px;
+    font-weight: 300;
+} 
+
+.buttons button{
+    width: 115px;
+    height: 40px;
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #ec5e6f;
+    font-weight: 650;
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+}
+
+.join {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    flex-direction: column;
+}
+
+.join p{
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: sans-serif;   
+}
+
+.join button{
+    width: 250px;
+    height: 50px;
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+    margin-top: 1px;
+    background: linear-gradient(45deg,#fd267a,#ff6036);
+    font-weight: 650;
+    border-radius: 100px;
+    border: none;
+    color: white;
+}
+
+.join button:hover{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

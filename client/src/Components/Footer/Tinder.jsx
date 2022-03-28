@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getDocs,collection, FieldValue } from "firebase/firestore"
-import { db } from "../firebase-config"
+import { db } from "../../firebase-config"
 import TinderCard from "react-tinder-card";
 import "./tinder.css"
 
@@ -32,10 +32,10 @@ const Tinder = () => {
                     <img src={user.image} />
 
                     <div className='card1'>
-                    <h3> {user.name}</h3>,
+                    <h3 id='name'> {user.name}</h3>,
                     </div>
-                    <p>{user.age}</p>
-                    <h4> {user.hobbies} </h4>
+                    <p id='age'>{user.age}</p>
+                    <h4 id='desc'> {user.hobbies} </h4>
                     </TinderCard>      
             </div>
                 )
