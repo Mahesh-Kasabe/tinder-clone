@@ -20,6 +20,9 @@ const Tinder = () => {
     
     }, []);
 
+
+
+
     return (
     <div className='main'>
         {

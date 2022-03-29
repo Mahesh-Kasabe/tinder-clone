@@ -1,0 +1,33 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+.border{
+    width: 370px;
+    height: 560px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 10px 10px;
+}
+
+.profile img{
+    margin-top: 10px;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    justify-self: center;
+}
+
+.profile p{
+    display: flex;
+    margin-left: 5px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}

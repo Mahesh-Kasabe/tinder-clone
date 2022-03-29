@@ -5,6 +5,7 @@ import Tinder from './Components/Footer/Tinder'
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
+import Home from './Components/Home/Home'
 
 function App() {
 
@@ -14,9 +15,11 @@ function App() {
     <Router>
       <Routes>
 
-        <Route path='home' exact element={<> <Navbar /> </>} />
+        <Route path='/' exact element={<> <Navbar /> </>} />
 
-        <Route path='/' element={<> <Header/> <Tinder/> <Footer/> </>} />
+        <Route path='home' element={<> <Header/> <Tinder/> <Footer/> </>} />
+
+        <Route path='profile' element={<> <Header /> <Home /> </>} />
 
       </Routes>
 
